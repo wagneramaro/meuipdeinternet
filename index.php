@@ -11,7 +11,7 @@ $operadora = gethostbyaddr($_SERVER['REMOTE_ADDR']);
     <meta name="description" content="Descubra aqui qual é o seu IP Internet e acesse as melhores ferramentas de diagnostico de sua rede, Medidor e teste Velocidade">
     <meta name="keywords" content="qual é o seu ip rede conexão endereço ferramentas Internet Medidor teste Velocidade Speedometro Calculadora Email Blacklist Verify">
     <meta name="author" content="Wagner Amaro">
-    <title>IP da Minha Internet - Qual é o meu ip?</title>
+    <title>Meu Ip de Internet - Qual é o meu ip?</title>
     <link rel="stylesheet" href="./css/bulma.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="img/favicon.png" />
@@ -35,7 +35,7 @@ $operadora = gethostbyaddr($_SERVER['REMOTE_ADDR']);
     <div class="column has-text-centered">
     <br><br>
     <p>Seu Ip de Internet é:</p>
-    <button class="button is-primary title is-3" style="margin: 30px 0;"><ion-icon name="globe-outline"></ion-icon>&nbsp;<?php echo $ipeth; ?></button>
+    <div id="botaoclick" class="button is-primary title is-3" style="margin: 30px 0;"><ion-icon name="globe-outline"></ion-icon>&nbsp;<span id="ip"><?php echo $ipeth; ?></span></div>
     </div>
 
 </div>

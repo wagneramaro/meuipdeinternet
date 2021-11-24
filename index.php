@@ -51,6 +51,8 @@ echo "<ion-icon name='git-network-outline'></ion-icon> IP Reverso:<br>".$operado
 ?></p></div>
 </div>
 
+<center>Esse projeto é mantido por: <a href="https://www.instagram.com/wagneramaro/" target="_blank">Wagner Amaro</a></center>
+
 
 
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>

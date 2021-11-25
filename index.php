@@ -34,7 +34,7 @@ $operadora = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 <div class="columns">
     <div class="column has-text-centered">
     <br><br>
-    <p>Seu Ip de Internet é:</p>
+   
     <div id="botaoclick" class="button is-primary title is-3" style="margin: 30px 0;"><ion-icon name="globe-outline"></ion-icon>&nbsp;<span id="ip"><?php echo $ipeth; ?></span></div>
     </div>
 
@@ -51,7 +51,7 @@ echo "<ion-icon name='git-network-outline'></ion-icon> IP Reverso:<br>".$operado
 ?></p></div>
 </div>
 
-<center>Esse projeto é mantido por: <a href="https://www.instagram.com/wagneramaro/" target="_blank">Wagner Amaro</a></center>
+<center>2021 - Esse projeto é mantido por: <a href="https://www.instagram.com/wagneramaro/" target="_blank">Wagner Amaro</a></center>
 
 
 

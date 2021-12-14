@@ -34,7 +34,7 @@ $operadora = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
 <div class="frase1"><h1>Seu IP de Internet é:</h1></div>
 <div class="ip" id="ip"><?php  echo $ipeth; ?></div>
-<input type="hidden" value="<?php  echo $ipeth; ?>" id="campo">
+<input type="text" value="<?php  echo $ipeth; ?>" id="campo">
 
 <div class="center">
     

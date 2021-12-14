@@ -34,11 +34,11 @@ $operadora = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
 <div class="frase1"><h1>Seu IP de Internet é:</h1></div>
 <div class="ip" id="ip"><?php  echo $ipeth; ?></div>
+<input type="hidden" value="<?php  echo $ipeth; ?>" id="campo">
 
 <div class="center">
     
-    <button class="button" role="button" style="display: inline-flex;
-    align-items: center;" ><ion-icon name="copy-outline" style="margin-right: 8px;" ></ion-icon> Copiar</button></div>
+    <button class="button" onclick="copy()" role="button" style="display: inline-flex; align-items: center;"  ><ion-icon name="copy-outline" style="margin-right: 8px;" ></ion-icon> Copiar</button></div>
 
  
 </div>

@@ -45,6 +45,11 @@ $operadora = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
 </div>
 
+<div class="container"> 
+  <div class="ip">O que é um IP?</div>
+  <p>Descubra aqui qual é o seu ip (ip da rede, ip conexão, endereço ip, ip fixo), além de várias ferramentas de diagnóstico de sua conexão Internet, como: Medidor e teste de velocidade, Velocidade na Internet, Speedometro, Calculadora IP, Email Checker, Email Blacklist, Email Verify, etc.</p>
+</div>
+
 
 
 <?php

@@ -46,8 +46,12 @@ $operadora = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 </div>
 
 <div class="container"> 
+  
+  <p class="frase1">Descubra aqui qual é o seu ip (ip da rede, ip conexão, endereço ip, ip fixo).</p>
+  <article>
   <div class="ip">O que é um IP?</div>
-  <p>Descubra aqui qual é o seu ip (ip da rede, ip conexão, endereço ip, ip fixo), além de várias ferramentas de diagnóstico de sua conexão Internet, como: Medidor e teste de velocidade, Velocidade na Internet, Speedometro, Calculadora IP, Email Checker, Email Blacklist, Email Verify, etc.</p>
+    <p class="frase1">O IP é uma expressão bastante popular, embora nem todo mundo saiba exatamente o seu significado. O termo é a sigla para Protocolo da Internet, ou Internet Protocol, em inglês. Esse protocolo funciona de forma semelhante ao CPF de uma pessoa física, permitindo que conexões e dispositivos sejam identificados a partir de uma sequência numérica.</p>
+  </article>
 </div>
 
 

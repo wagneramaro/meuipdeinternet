@@ -27,7 +27,7 @@ body{
     margin: 0 auto;
 }
 
-h1{
+h1, p{
     color: #fff;
     text-align: center;
     font-size: 2em;
@@ -85,7 +85,7 @@ h1{
 
     }
 
-    h1{
+    h1, p{
         color: var(--cor-primaria);
     }
   }
